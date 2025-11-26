@@ -1,0 +1,98 @@
+@font-face {
+    font-family: s;
+    src: url(SamsungOne-400.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: s;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#navbar {
+    height: 100px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.logo {
+    height: auto;
+    width: 140px;
+    margin: 40.40px;
+}
+
+.menu {
+    height: 80px;
+    width: 900px;
+    padding-top: 45px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+
+.menu2 {
+    height: 65px;
+    width: 350px;
+    background-color: #fff(102, 42, 42);
+    display: flex;
+    padding: 11px 30px;
+    margin-left: 500px;
+    margin-top: 25px;
+}
+
+.menu2 #search {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+.menu2 #cart {
+    padding-top: 5px;
+
+}
+
+.menu2 #userlogin {
+    padding-top: 5px;
+}
+
+.box1 {
+    height: 1000px;
+    width: 100%;
+    background-image: url(https://images.samsung.com/is/image/samsung/assets/in/home/07-11-2025/25_ym_2h_home_hero-kv_preview_pc_1920x1080.jpg?$1920_N_JPG$);
+    background-image: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+#content {
+    padding-left: 100px;
+    padding-top: 20%;
+}
+
+#content h1 {
+    padding-bottom: 20px;
+    font-size: 100px;
+}
+
+#content > h2 {
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+#content button{
+    width: 200px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
